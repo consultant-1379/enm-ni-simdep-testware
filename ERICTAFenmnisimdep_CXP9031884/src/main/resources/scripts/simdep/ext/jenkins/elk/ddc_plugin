@@ -1,0 +1,88 @@
+#!/bin/bash
+
+TASK=$1
+OUTPUT_DIR=$2
+
+doStart() {
+    if [ ! -d ${OUTPUT_DIR}/netsim ] ; then
+        ${_MKDIR} ${OUTPUT_DIR}/netsim
+    fi
+    if [[ -f /netsim/inst/installation_report ]]
+    then
+       cat /netsim/inst/installation_report > ${OUTPUT_DIR}/netsim/show_installation.txt
+    else
+       su netsim -c "echo '.show installation' | timeout 120 /netsim/inst/netsim_pipe" > ${OUTPUT_DIR}/netsim/show_installation.txt
+    fi
+    if [[ -f /netsim/ddc_show_startednes.txt ]]
+    then
+        ${_CP} /netsim/ddc_show_startednes.txt ${OUTPUT_DIR}/netsim/show_started.txt
+    else
+        su netsim -c "echo '.show started' | timeout 120 /netsim/inst/netsim_pipe" > ${OUTPUT_DIR}/netsim/show_started.txt
+    fi
+}
+
+doStopAndMakeTar() {
+    echo "doStopAndMakeTar"
+    if [ -d /netsim/inst/netsimprmn ] ; then
+        if [ ! -d ${OUTPUT_DIR}/netsim/netsimprmn ] ; then
+            ${_MKDIR} ${OUTPUT_DIR}/netsim/netsimprmn
+        fi
+        ${_FIND} /netsim/inst/netsimprmn -type f -daystart -ctime -1 -name 'NetsimRequestsCntr*' \
+                 -exec ${_CP} -f {} ${OUTPUT_DIR}/netsim/netsimprmn \;
+    fi
+    if [ -d /netsim/inst/prmnresponse ] ; then
+        if [ ! -d ${OUTPUT_DIR}/netsim/prmnresponse ] ; then
+            ${_MKDIR} ${OUTPUT_DIR}/netsim/prmnresponse
+        fi
+        ${_FIND} /netsim/inst/prmnresponse -type f -daystart -ctime -1 -name 'NetsimResponseCntr*' \
+                 -exec ${_CP} -f {} ${OUTPUT_DIR}/netsim/prmnresponse \;
+    fi
+
+    if [ -r /netsim/simdepContents/NRMDetails ] ; then
+        NRM=$(egrep '^NRM=' /netsim/simdepContents/NRMDetails | sed 's/^NRM=//')
+        RolloutNetwork=$(egrep '^RolloutNetwork=' /netsim/simdepContents/NRMDetails | sed 's/^RolloutNetwork=//')
+        cat > ${OUTPUT_DIR}/netsim/NRM.json <<EOF
+{
+    "NRM": "${NRM}",
+    "RolloutNetwork": "${RolloutNetwork}"
+}
+EOF
+    fi
+    if [ -d /netsim/inst/cbrs/ ] ; then
+        if [ ! -d ${OUTPUT_DIR}/netsim/cbrs ] ; then
+            ${_MKDIR} ${OUTPUT_DIR}/netsim/cbrs
+	fi 
+        ${_FIND} /netsim/inst/cbrs/ -type f -daystart -ctime -1 -name 'cbrstxexpiretime*' \
+            -exec ${_CP} -f {} ${OUTPUT_DIR}/netsim/cbrs \;
+    fi
+    if [[ -f /netsim/ddc_Num_startednes.txt ]]
+    then
+        COUNT=`cat /netsim/ddc_Num_startednes.txt`
+    else
+       COUNT=$(su netsim -c "echo '.show numstartednes' | timeout 120 /netsim/inst/netsim_pipe")
+    fi
+    if [[ $? == 0 ]]
+    then
+        NUM_STARTED=$(echo "$COUNT" | tail -1)
+	echo "${TIMESTAMP} ${NUM_STARTED}" >> ${OUTPUT_DIR}/netsim/show_numstartednes.txt
+    fi
+}
+
+doTrigger() {
+    echo "DDC DO TRIGGER"
+}
+
+case "${TASK}" in
+    START)
+        doStart
+        ;;
+    STOP)
+        doStopAndMakeTar
+        ;;
+    TRIGGER)
+        doTrigger
+        ;;
+    MAKETAR)
+        doStopAndMakeTar
+        ;;
+esac

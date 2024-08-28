@@ -1,0 +1,5 @@
+SMRSSLAVE-WRAN-nedssv4
+w-back-nedssv4
+w-sws-nedssv4
+w-key-nedssv4
+aifwran

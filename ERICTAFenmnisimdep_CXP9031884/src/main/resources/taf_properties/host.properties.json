@@ -1,0 +1,35 @@
+[
+    {
+        "hostname": "development-netsim",
+        "ip": "atvts2202.athtem.eei.ericsson.se",
+        "type": "unknown",
+        "users": [
+            {"username": "netsim", "password": "netsim", "type": "oper"},
+            {"username": "root", "password": "shroot", "type": "admin"}
+        ],
+        "ports": {"ssh": 2202}
+    },
+    {
+        "hostname": "atclvm1231",
+        "ip": "10.59.140.216",
+        "type": "gateway",
+        "ports": {"ssh": 22},
+        "users":
+            [{"username": "simnet","password": "simnet","type": "admin"}],
+            "nodes": [
+            {
+                "hostname": "physical-or-vm-netsim",
+                "ip": "netsimv006-07.athtem.eei.ericsson.se",
+                "ports": {
+                    "ssh": 22
+                },
+                "tunnel": 1,
+                "type": "unknown",
+                "users": [
+                    {"username": "root", "password": "shroot", "type": "admin"},
+                    {"username": "netsim", "password": "netsim", "type": "oper"}
+                    ]
+               }
+          ]
+    }
+]

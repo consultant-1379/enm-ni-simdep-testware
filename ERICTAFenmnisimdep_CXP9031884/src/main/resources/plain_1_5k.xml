@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schedule xmlns="http://taf.lmera.ericsson.se/schema/te"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://taf.lmera.ericsson.se/schema/te http://taf.lmera.ericsson.se/schema/te/schedule/xml">
+    <item-group parallel="true">
+        <item>
+            <name>simdep_rollout_on_${serverName_1}</name>
+            <component>com.ericsson.ci.simnet:ERICTAFenmnisimdep_CXP9031884:${enm_ni_simdep_version}</component>
+            <suites>CLIScriptExecutionTestSuite.xml</suites>
+            <env-properties>
+                 <property type="system" key="serverName">${serverName_1}</property>
+                 <property type="system" key="simLTE">${simLTE_1}</property>
+                 <property type="system" key="simCORE">${simCORE_1}</property>
+                 <property type="system" key="simWRAN">${simWRAN_1}</property>
+            </env-properties>
+        </item>
+    </item-group>
+</schedule>

@@ -1,0 +1,4 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/netsim_install/bin/master.sh ,0
+/netsim/inst/bin/setup_fd_server.sh ,0
+/var/simnet/enm-ni-simdep/scripts/patchLink.sh ,0

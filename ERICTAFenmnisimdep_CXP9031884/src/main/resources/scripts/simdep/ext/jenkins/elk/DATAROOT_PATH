@@ -1,0 +1,18 @@
+#!/bin/bash
+ENIQ_DIR=/eniq/log/ddc_data/
+NAS_MOUNTED_DIR=/var/ericsson/ddc_data/
+NON_MOUNTED_DIR=/var/tmp/ddc_data/
+
+# Assign DATAROOT variable as required dependant host and operating system
+if [ -d ${ENIQ_DIR} ]; then
+        DATAROOT=${ENIQ_DIR}$(hostname)_TOR
+        echo "DATAROOT=${DATAROOT}"
+elif [ -d ${NAS_MOUNTED_DIR} ]; then
+        DATAROOT=${NAS_MOUNTED_DIR}$(hostname)_TOR
+        echo "DATAROOT=${DATAROOT}"
+elif [ -d ${NON_MOUNTED_DIR} ]; then
+        DATAROOT=${NON_MOUNTED_DIR}
+        echo "DATAROOT=${DATAROOT}"
+else
+        echo "unable to find directory"
+fi

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NetsimHealthCheckTestSuite">
+
+    <test name="NetsimHealthCheckTest">
+        <classes>
+            <class name="com.ericsson.ci.simnet.test.cases.NetsimHealthCheckTest"/>
+        </classes>
+    </test>
+
+</suite>

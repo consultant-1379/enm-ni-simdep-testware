@@ -1,0 +1,23 @@
+# OpenSSL configuration for CRL generation
+#
+####################################################################
+[ ca ]
+default_ca	= CA_default		# The default ca section
+
+####################################################################
+[ CA_default ]
+dir=./demoCA
+database = $dir/index.txt
+crlnumber = $dir/crlnumber
+default_md = sha256        		# use public key default MD
+preserve = no
+default_days = 3650		# how long to certify for
+default_crl_days = 3650	
+crl_extensions = crl_ext
+
+####################################################################
+[ crl_ext ]
+# CRL extensions.
+# Only issuerAltName and authorityKeyIdentifier make any sense in a CRL.
+# issuerAltName=issuer:copy
+authorityKeyIdentifier=keyid,issuer

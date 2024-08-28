@@ -1,0 +1,27 @@
+ProjectName: SimNet Deployer Tool
+
+Author     : Fatih Onur - Jigar Shah
+Team       : SimNet
+Website    : https://confluence-oss.lmera.ericsson.se/display/PDUCD/SimNet+Deployer
+GitRepo    : git clone ssh://qfatonu@gerrit.ericsson.se:29418/OSS/com.ericsson.ci.simnet/simdep
+
+[[ FOLDER STRUCTURE ]]
+simdep [root]
+  lib/     holding the modules
+  bin/     holding the executable scripts/ main program stuff
+  dat/     static data files
+  utils/   various utility scripts
+  t/       holding the test files
+  conf/    config files
+  log/     log files
+  doc/     developer and minimal usage docs
+  tmp/     temporary files
+  ext/     external files e.g. cloud interaction specific scripts
+  pkg/     required perl packages
+
+[[ DEPENDENCIES ]]
+1) Perl packages: Net::OpenSSSH
+2) Perl packages: Expect
+3) Perl packages: Config::Tiny
+
+

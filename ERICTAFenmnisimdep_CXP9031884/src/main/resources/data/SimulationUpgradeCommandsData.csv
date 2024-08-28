@@ -1,0 +1,3 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/netsim_install/bin/installsPatch.sh ,0
+

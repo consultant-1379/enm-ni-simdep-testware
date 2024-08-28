@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><Profiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProfilesSchema.xsd">
+    <TrustProfile Id="14" Name="ENM_SBI_FCTP_TP">
+        <ProfileValidity>2111-03-01</ProfileValidity>
+        <Modifiable>true</Modifiable>
+        <TrustCAChain>
+            <IsChainRequired>true</IsChainRequired>
+            <InternalCA>
+                <CertificateAuthority>
+                    <Name>NE_OAM_CA</Name>
+                </CertificateAuthority>
+            </InternalCA>
+        </TrustCAChain>
+        <ExternalCA>
+            <CertificateAuthority>
+                <Name>ENM_ExtCA1</Name>
+            </CertificateAuthority>
+        </ExternalCA>
+        <ExternalCA>
+            <CertificateAuthority>
+                <Name>ENM_ExtCA2</Name>
+            </CertificateAuthority>
+       </ExternalCA>
+ </TrustProfile>
+</Profiles>

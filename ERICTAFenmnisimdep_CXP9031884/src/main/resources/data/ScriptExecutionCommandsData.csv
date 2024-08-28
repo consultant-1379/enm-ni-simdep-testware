@@ -1,0 +1,7 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/setUpProxy.pl ,0
+/var/simnet/enm-ni-simdep/scripts/perlCount.pl ,0
+/var/simnet/enm-ni-simdep/scripts/netsim_install/bin/master.sh ,0
+/var/simnet/enm-ni-simdep/scripts/simdep/bin/rollout.py ,0
+/var/simnet/enm-ni-simdep/scripts/generateNetworkMap.pl ,0
+/var/simnet/enm-ni-simdep/scripts/modifyCrontab.sh ,0

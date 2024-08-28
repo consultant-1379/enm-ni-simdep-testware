@@ -1,0 +1,5 @@
+SMRSSLAVE-LRAN-nedssv4
+l-back-nedssv4
+l-sws-nedssv4
+l-key-nedssv4
+aiflran

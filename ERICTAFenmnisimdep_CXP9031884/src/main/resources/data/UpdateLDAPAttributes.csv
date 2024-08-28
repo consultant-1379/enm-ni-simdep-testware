@@ -1,0 +1,2 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/simdep/ext/jenkins/root_updateLdapAttributesOnNodesVM.sh ,0

@@ -1,0 +1,15 @@
+ ERROR CODE                   DESCRIPTION
+-----------------------------------------------------------------
+  201                        incorrect user
+  202                        incorrect usage
+  203                        file open and close operations failed
+  204                        ssh failed
+  205                        use of unintialized value
+  206                        file does not exist or file delete failed
+  207                        unix commands execution failed (system, exec and backticks)
+  208                        list operations failed
+  209                        hash map store and retrieve operations failed
+  210                        Failed to generate pem files
+  211                        No release version detected
+  212                        Node(s) not started
+  213                        Generic failure. Check logs.

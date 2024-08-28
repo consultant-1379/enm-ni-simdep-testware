@@ -1,0 +1,16 @@
+ ERROR CODE                  Description
+-----------------------------------------------------------------
+ 201                 Incorrect usage of modules
+ 202                 Variable Not defined
+ 203                 Invalid value
+ 204                 not able to access weblinks (Netsim pages ..etc)
+ 205                 download  failed (Netsim/license/patches etc)
+ 206                 "Copying files failed
+                      Removing files failed
+                      Make Directories failed
+                      moving files failed"
+ 207                 "Execution failed due to NETSim commands
+                      Netsim installation failed
+                      Netsim does not started
+                      Netsim not stopped"
+ 208                 Incorrect User

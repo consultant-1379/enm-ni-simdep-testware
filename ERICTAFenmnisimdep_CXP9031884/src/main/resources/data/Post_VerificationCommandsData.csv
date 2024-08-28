@@ -1,0 +1,2 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/simdep/bin/netsim/post_verification.sh ,0

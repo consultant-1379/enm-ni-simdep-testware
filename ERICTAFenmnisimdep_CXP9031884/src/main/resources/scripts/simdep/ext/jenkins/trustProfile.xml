@@ -1,0 +1,5 @@
+        <ExternalCA>
+            <CertificateAuthority>
+                <Name>ENM_ExtCA3</Name>
+            </CertificateAuthority>
+        </ExternalCA>

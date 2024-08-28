@@ -1,0 +1,5 @@
+SMRSSLAVE-CORE-nedssv4
+c-back-nedssv4
+c-swstore-nedssv4
+c-key-nedssv4
+

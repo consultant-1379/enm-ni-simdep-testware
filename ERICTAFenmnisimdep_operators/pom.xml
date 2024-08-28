@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.ci.simnet</groupId>
+        <artifactId>enm-ni-simdep-testware</artifactId>
+        <version>1.5.818-SNAPSHOT</version>
+    </parent>
+    <artifactId>ERICTAFenmnisimdep_operators</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>all-taf-sdk</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.taf</groupId>
+            <artifactId>host-configurator</artifactId>
+            <version>1.0.139</version>
+    </dependency>
+	<dependency>
+    <groupId>com.ericsson.de</groupId>
+    <artifactId>cli-tool</artifactId>
+    <version>1.0.26</version>
+</dependency> 
+    </dependencies>
+</project>

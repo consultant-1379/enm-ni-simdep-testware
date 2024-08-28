@@ -1,0 +1,4 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/copyDeltaContents.sh ,0
+/var/simnet/enm-ni-simdep/scripts/simdep/bin/rollout.py ,0
+

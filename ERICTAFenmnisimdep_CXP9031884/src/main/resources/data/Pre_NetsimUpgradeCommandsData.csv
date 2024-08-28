@@ -1,0 +1,2 @@
+command,expectedExitCode
+/var/simnet/enm-ni-simdep/scripts/netsim_install/bin/beforeUpdate.sh ,0

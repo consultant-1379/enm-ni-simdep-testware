@@ -1,0 +1,156 @@
+# File Name : CONFIG.env
+
+# Verify if the user wants to use default path.
+# Possible values are YES/NO. Default value is YES.
+FETCH_SIM_FROM_DEFAULT_PATH=YES
+
+ROLLOUT_LTE=YES
+ROLLOUT_WRAN=YES
+ROLLOUT_GRAN=NO
+ROLLOUT_CORE=YES
+ROLLOUT_PICO=NO
+
+# If SERVER_TYPE is VAPP rollout is done in a VAPP environment otherwise in VM environment.
+# Can take possible values of VM/VAPP. Default value is  VM.
+SERVER_TYPE=VM
+
+# If DEPLOYMENT_TYPE is mediumDeployment then rollout is done for 5K/15K simulations.
+# If DEPLOYMENT_TYPE is largeDeployment then rollout is done for 40K/60K simulations.
+# Can take possible values of mediumDeployment/largeDeployment. Default value is  mediumDeployment.
+# NOTE: largeDeployment option requires FTP paths to be passed as a part of cmd line options.
+DEPLOYMENT_TYPE=mediumDeployment
+
+# If SWITCH_TO_DOCKER is YES, roll-out is enabled for DOCKER env, otherwise roll-out is for non DOCKER env.
+# Can take possible values of NO/YES. Default value is NO.
+SWITCH_TO_DOCKER=NO
+
+# If SWITCH_TO_ENM is NO, roll-out is for OSS otherwise roll-out is for ENM.
+# Can take possible values of NO/YES. Default value is NO.
+SWITCH_TO_ENM=YES
+
+# If SWITCH_TO_ENM is YES ,then it will check for the ARNE_FILE_GENERATION parameter to check whether to  generate ARNE files or not,
+# Can take possible values of ON/OFF. Default value is OFF.
+ARNE_FILE_GENERATION=OFF
+
+# If SWITCH_TO_RV is YES, roll-out is enabled for RV env, otherwise roll-out is for MT env.
+# Can take possible values of NO/YES. Default value is NO.
+SWITCH_TO_RV=NO
+
+# If INSTALLTYPE is Offline, downloading netsim and sims done before rollout process if online downloaded during rollout process.
+INSTALL_TYPE=online
+
+# In the case of user wants to download sims from a specific PATH. PATH should contain <NETWORK_TYPE> info as seen below.
+FETCH_SIM_FROM_PATH_1=/tmp/sims/16.2/CORE/
+FETCH_SIM_FROM_PATH_2=/tmp/sims/16.2/LTE/
+FETCH_SIM_FROM_PATH_3=/tmp/sims/16.2/WRAN/
+FETCH_SIM_FROM_PATH_4=/tmp/sims//16.2/PICO/
+
+# Example Formats
+# FETCH_SIM_FROM_PATH_5=/sims/O15/FeatureTest/15.2.1/PICO/TESTING-IPV6
+### Format For nexus
+# FETCH_SIM_FROM_PATH_6=/LTE/FT/ALL/15.2.1/LATEST
+# FETCH_SIM_FROM_PATH_6=/CORE/FT/ALL/15.2.1/TESTINGDEMO
+
+# Set up TLS and SL3 security. Default values are ON.Can take possible values of ON/OFF.
+SETUP_SECURITY_TLS=ON
+SETUP_SECURITY_SL3=OFF
+SETUP_SECURITY_SL2=OFF
+
+# If arne import is off user will have an option to copy to sim a specific folder
+# at some location. Possible values are  YES / NO
+COPY_ARNE_TO_DEFAULT_LOCATION=NO
+HOST_FOLDER_TO_COPY_ARNE_XMLS=/cloud_network_xmls/
+
+# Import nodes to ossmaster. The default value is OFF. Can take possible values of ON/OFF.
+IMPORT_ARNE_XMLS_ON_TO_OSS=OFF
+
+# Enable synch status check. The default value is OFF. Can take possible values of ON/OFF.
+#  NOTE: Won't be enabled unless IMPORT_ARNE_XMLS_ON_TO_OSS set ON
+CHECK_SYNC_STATUS=ON
+
+#
+#IPv6 Config
+# Usage
+#   <network-type> e.g [lte]
+#   <ne-type> e.g RNC, RBS, ERBS etc.
+# e.g
+#[lte]
+#ERBS=50
+#
+[lte]
+ERBS=10
+MSRBS-V2=10
+vPP=60
+vRC=60
+vSD=60
+RNNODE=60
+RAN-VNFM=60
+5GRadioNode=60
+VTIF=60
+VTFRadioNode=40
+OpenMano=70
+RNFVO=70
+ECM-RNFVO=70
+HP-NFVO=70
+[wran]
+#RBS=50
+#RXI=50
+#PRBS=50
+[core]
+SGSN=10
+CISCO=50
+JUNIPER=50
+EME=20
+WCG=20
+HSS-FE=20
+UPG=20
+IPWORKS=50
+BSP=20
+MRSv=20
+MRFv=20
+DSC=50
+vBNG=40
+Router=40
+SSR=40
+R6675=50
+R6672=30
+R6371=33
+R6471-1=33
+R6471-2=33
+FrontHaul-6020=33
+CONTROLLER6610=20
+[gran]
+
+#
+# Server details
+#
+[servers]
+
+DEFAULT_DESTINATION=192.168.0.12
+OSS_MASTER_SERVER=ossmaster-vip-ossfs
+OSS_MASTER_USER=root
+OSS_MASTER_PASS=shroot
+
+NETSIM_SERVER=netsim
+NETSIM_USER=root
+NETSIM_PASS=shroot
+
+OMSAS_SERVER=omsas
+OMSAS_USER=root
+OMSAS_PASS=shroot
+
+ENM_MASTER_SERVER=cloud-ms-1
+ENM_MASTER_USER=root
+ENM_MASTER_PASS=12shroot
+
+FTP_SERVER=159.107.220.96
+FTP_USER=simguest
+FTP_PASS=simguest
+
+# Fetches simulations from FTP when YES otherwise fetches from Nexus.
+# Can take possible values YES or NO
+FETCH_FROM_FTP=YES
+
+# Overwrites FETCH_FROM_FTP and fetches sims from local folder mentioned in FETCH_SIM_FROM_PATH_1 etc
+# Possible values are LOCAL/FTP/PORTAL. Default value is FTP.
+FETCH_SIMS_METHOD=FTP

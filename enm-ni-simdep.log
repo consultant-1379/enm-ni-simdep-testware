@@ -1,0 +1,375 @@
+2015-06-26 17:30:39,186 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : JCatTafPlugin
+2015-06-26 17:30:39,236 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : TestNgPlugin
+2015-06-26 17:30:39,242 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : AllureTafPlugin
+2015-06-26 17:30:39,247 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.AllureTafPlugin] Loading AspectJ Weaver javaagent for Allure reports extended scope...
+2015-06-26 17:30:41,117 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.AllureTafPlugin] AspectJ Weaver javaagent for Allure successfully loaded
+2015-06-26 17:30:41,847 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : NetSimTafPlugin
+2015-06-26 17:30:41,862 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : PerformancePlugin
+2015-06-26 17:30:41,971 [com.ericsson.cifwk.taf.Taf.main()] [WARN] [com.ericsson.cifwk.taf.configuration.configurations.TafUserHomeConfiguration] Can't load UserHome configuration because not exists /home/qsarfly/taf_properties
+2015-06-26 17:30:43,416 [com.ericsson.cifwk.taf.Taf.main()] [WARN] [com.ericsson.cifwk.taf.performance.PerformancePluginServices] No writers are enabled for metrics
+2015-06-26 17:30:43,426 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : UiTafPlugin
+2015-06-26 17:30:43,449 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.management.TafBootstrap] Initializing TAF plugin : HttpToolTafPlugin
+2015-06-26 17:30:43,526 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.Taf] Looking for suite.xml in directory : /home/qsarfly/repos/enm-ni-simdep-testware/test-pom-enmnisimdep/target/taf/suites
+2015-06-26 17:30:44,800 [com.ericsson.cifwk.taf.Taf.main()] [INFO] [com.ericsson.cifwk.taf.TorNgSuiteListener] TAF version: 2.8.1
+2015-06-26 17:30:46,424 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] host:NETSIM development-netsim
+2015-06-26 17:30:49,032 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] changeOwnerSetupOutput=mkdir -v -p /var/simnet/; chown -v netsim:netsim /var/simnet; echo "t af.jsch.exitcode=$?"
+ownership of `/var/simnet' retained as netsim:netsim
+
+2015-06-26 17:30:49,040 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] changeOwnerSetupCmdExitCode=0 
+2015-06-26 17:30:49,289 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] remoteFolderSetupOutput=
+2015-06-26 17:30:49,295 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] remoteFolderSetupCmd01ExitCode=0
+2015-06-26 17:30:49,309 [CLIScriptExecutionTestSuite] [DEBUG] [com.ericsson.ci.simnet.test.utils.TafFileUtils] initialLocation for search to begin: /home/qsarfly/repos/enm-ni-simdep-testware
+2015-06-26 17:30:49,737 [CLIScriptExecutionTestSuite] [DEBUG] [com.ericsson.ci.simnet.test.utils.TafFileUtils] initialLocation for search to begin: /home/qsarfly/repos/enm-ni-simdep-testware
+2015-06-26 17:30:49,950 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility] Source location - /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts
+2015-06-26 17:30:49,957 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility] Zipping files into - /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/zips/enm-ni-simdep.zip
+2015-06-26 17:30:49,964 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: scriptsRelativeDirName: scripts/
+2015-06-26 17:30:49,984 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: netsim_install, RelativeDirName: scripts/netsim_install/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install
+2015-06-26 17:30:49,991 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: simdep, RelativeDirName: scripts/simdep/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep
+2015-06-26 17:30:49,997 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: testing_taf_features, RelativeDirName: scripts/testing_taf_features/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/testing_taf_features
+2015-06-26 17:30:50,003 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: master.sh, RelativeFileName: testing_taf_features/master.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/testing_taf_features/master.sh
+2015-06-26 17:30:50,010 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: subScript_1.sh, RelativeFileName: testing_taf_features/subScript_1.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/testing_taf_features/subScript_1.sh
+2015-06-26 17:30:50,019 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: .gitignore, RelativeFileName: simdep/.gitignore, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/.gitignore
+2015-06-26 17:30:50,033 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/README
+2015-06-26 17:30:50,040 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: SIMDEP_ERROR_CODE_REFERENCE.txt, RelativeFileName: simdep/SIMDEP_ERROR_CODE_REFERENCE.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/SIMDEP_ERROR_CODE_REFERENCE.txt
+2015-06-26 17:30:50,048 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: bin, RelativeDirName: scripts/simdep/bin/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin
+2015-06-26 17:30:50,053 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: conf, RelativeDirName: scripts/simdep/conf/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/conf
+2015-06-26 17:30:50,059 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: dat, RelativeDirName: scripts/simdep/dat/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat
+2015-06-26 17:30:50,064 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: docs, RelativeDirName: scripts/simdep/docs/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/docs
+2015-06-26 17:30:50,069 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: ext, RelativeDirName: scripts/simdep/ext/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/ext
+2015-06-26 17:30:50,077 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: lib, RelativeDirName: scripts/simdep/lib/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/lib
+2015-06-26 17:30:50,083 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: t, RelativeDirName: scripts/simdep/t/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t
+2015-06-26 17:30:50,088 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: utils, RelativeDirName: scripts/simdep/utils/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils
+2015-06-26 17:30:50,094 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: netsim, RelativeDirName: scripts/simdep/utils/netsim/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim
+2015-06-26 17:30:50,100 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: omsas, RelativeDirName: scripts/simdep/utils/omsas/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/omsas
+2015-06-26 17:30:50,105 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: ossmaster, RelativeDirName: scripts/simdep/utils/ossmaster/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster
+2015-06-26 17:30:50,113 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: cNetsim.sh, RelativeFileName: simdep/utils/ossmaster/cNetsim.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/cNetsim.sh
+2015-06-26 17:30:50,120 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: cOss.sh, RelativeFileName: simdep/utils/ossmaster/cOss.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/cOss.sh
+2015-06-26 17:30:50,126 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: cleanServer.pl, RelativeFileName: simdep/utils/ossmaster/cleanServer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/cleanServer.pl
+2015-06-26 17:30:50,133 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: expect_env.sh, RelativeFileName: simdep/utils/ossmaster/expect_env.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/expect_env.sh
+2015-06-26 17:30:50,138 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: expect_root.sh, RelativeFileName: simdep/utils/ossmaster/expect_root.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/expect_root.sh
+2015-06-26 17:30:50,143 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: runCleanVapp.sh, RelativeFileName: simdep/utils/ossmaster/runCleanVapp.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/ossmaster/runCleanVapp.sh
+2015-06-26 17:30:50,148 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: setupOmsas.pl, RelativeFileName: simdep/utils/omsas/setupOmsas.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/omsas/setupOmsas.pl
+2015-06-26 17:30:50,153 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: afterNetsimLogin.pl, RelativeFileName: simdep/utils/netsim/afterNetsimLogin.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/afterNetsimLogin.pl
+2015-06-26 17:30:50,158 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: checkForError.sh, RelativeFileName: simdep/utils/netsim/checkForError.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/checkForError.sh
+2015-06-26 17:30:50,163 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: checkUsedIps.sh, RelativeFileName: simdep/utils/netsim/checkUsedIps.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/checkUsedIps.sh
+2015-06-26 17:30:50,167 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: fetchFiles.pl, RelativeFileName: simdep/utils/netsim/fetchFiles.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/fetchFiles.pl
+2015-06-26 17:30:50,175 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: fetchFreeIps.pl, RelativeFileName: simdep/utils/netsim/fetchFreeIps.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/fetchFreeIps.pl
+2015-06-26 17:30:50,205 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: filterSims.pl, RelativeFileName: simdep/utils/netsim/filterSims.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/filterSims.pl
+2015-06-26 17:30:50,225 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: searchNexusSimNet.pl, RelativeFileName: simdep/utils/netsim/searchNexusSimNet.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/searchNexusSimNet.pl
+2015-06-26 17:30:50,253 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: showIPs.sh, RelativeFileName: simdep/utils/netsim/showIPs.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/showIPs.sh
+2015-06-26 17:30:50,274 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: summaryReportGenerator.pl, RelativeFileName: simdep/utils/netsim/summaryReportGenerator.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/summaryReportGenerator.pl
+2015-06-26 17:30:50,279 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: workAroundXML.pl, RelativeFileName: simdep/utils/netsim/workAroundXML.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/utils/netsim/workAroundXML.pl
+2015-06-26 17:30:50,284 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/t/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/README
+2015-06-26 17:30:50,289 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: file.conf, RelativeFileName: simdep/t/file.conf, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/file.conf
+2015-06-26 17:30:50,292 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: temp-invokeSimNetDeployer.pl, RelativeFileName: simdep/t/temp-invokeSimNetDeployer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/temp-invokeSimNetDeployer.pl
+2015-06-26 17:30:50,298 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test-inputToFile.pl, RelativeFileName: simdep/t/test-inputToFile.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test-inputToFile.pl
+2015-06-26 17:30:50,302 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test-mailer.pl, RelativeFileName: simdep/t/test-mailer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test-mailer.pl
+2015-06-26 17:30:50,306 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-CheckAvailibity.sh, RelativeFileName: simdep/t/test1-CheckAvailibity.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-CheckAvailibity.sh
+2015-06-26 17:30:50,311 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-ConfigSimple.pl, RelativeFileName: simdep/t/test1-ConfigSimple.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-ConfigSimple.pl
+2015-06-26 17:30:50,314 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-ConfigTiny.pl, RelativeFileName: simdep/t/test1-ConfigTiny.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-ConfigTiny.pl
+2015-06-26 17:30:50,318 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-CopyFilesViaScp.pl, RelativeFileName: simdep/t/test1-CopyFilesViaScp.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-CopyFilesViaScp.pl
+2015-06-26 17:30:50,322 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-CurrDirectory.pl, RelativeFileName: simdep/t/test1-CurrDirectory.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-CurrDirectory.pl
+2015-06-26 17:30:50,326 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-ExpectTLSS.pl, RelativeFileName: simdep/t/test1-ExpectTLSS.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-ExpectTLSS.pl
+2015-06-26 17:30:50,330 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-HashRef.pl, RelativeFileName: simdep/t/test1-HashRef.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-HashRef.pl
+2015-06-26 17:30:50,334 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-StorableRead.pl, RelativeFileName: simdep/t/test1-StorableRead.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-StorableRead.pl
+2015-06-26 17:30:50,339 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-StorableWrite.pl, RelativeFileName: simdep/t/test1-StorableWrite.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-StorableWrite.pl
+2015-06-26 17:30:50,348 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-Understand-invokeSimNetDeployer.pl, RelativeFileName: simdep/t/test1-Understand-invokeSimNetDeployer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-Understand-invokeSimNetDeployer.pl
+2015-06-26 17:30:50,353 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-UnderstandSubRotine.pl, RelativeFileName: simdep/t/test1-UnderstandSubRotine.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-UnderstandSubRotine.pl
+2015-06-26 17:30:50,358 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test1-percCalc.pl, RelativeFileName: simdep/t/test1-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test1-percCalc.pl
+2015-06-26 17:30:50,362 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test2-CopyPemFromOMSAS.pl, RelativeFileName: simdep/t/test2-CopyPemFromOMSAS.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test2-CopyPemFromOMSAS.pl
+2015-06-26 17:30:50,366 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test2-percCalc.pl, RelativeFileName: simdep/t/test2-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test2-percCalc.pl
+2015-06-26 17:30:50,371 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test2_1-CopyPemFromOMSAS.pl, RelativeFileName: simdep/t/test2_1-CopyPemFromOMSAS.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test2_1-CopyPemFromOMSAS.pl
+2015-06-26 17:30:50,375 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test3-CopyPemFromOMSAS.pl, RelativeFileName: simdep/t/test3-CopyPemFromOMSAS.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test3-CopyPemFromOMSAS.pl
+2015-06-26 17:30:50,379 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test3-percCalc.pl, RelativeFileName: simdep/t/test3-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test3-percCalc.pl
+2015-06-26 17:30:50,383 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test4-percCalc.pl, RelativeFileName: simdep/t/test4-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test4-percCalc.pl
+2015-06-26 17:30:50,391 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test5-percCalc.pl, RelativeFileName: simdep/t/test5-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test5-percCalc.pl
+2015-06-26 17:30:50,396 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test6-percCalc-TMP.pl, RelativeFileName: simdep/t/test6-percCalc-TMP.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test6-percCalc-TMP.pl
+2015-06-26 17:30:50,400 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: test6-percCalc.pl, RelativeFileName: simdep/t/test6-percCalc.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/t/test6-percCalc.pl
+2015-06-26 17:30:50,405 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/lib/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/lib/README
+2015-06-26 17:30:50,409 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: master.sh, RelativeFileName: simdep/ext/master.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/ext/master.sh
+2015-06-26 17:30:50,415 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: simdep_caller.sh, RelativeFileName: simdep/ext/simdep_caller.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/ext/simdep_caller.sh
+2015-06-26 17:30:50,419 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: simdep_download.sh, RelativeFileName: simdep/ext/simdep_download.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/ext/simdep_download.sh
+2015-06-26 17:30:50,447 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: simdep_upload.sh, RelativeFileName: simdep/ext/simdep_upload.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/ext/simdep_upload.sh
+2015-06-26 17:30:50,475 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/docs/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/docs/README
+2015-06-26 17:30:50,501 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: netsim, RelativeDirName: scripts/simdep/dat/netsim/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/netsim
+2015-06-26 17:30:50,526 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: omsas, RelativeDirName: scripts/simdep/dat/omsas/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/omsas
+2015-06-26 17:30:50,550 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: ossmaster, RelativeDirName: scripts/simdep/dat/ossmaster/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/ossmaster
+2015-06-26 17:30:50,560 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: LTED1180-V2x10-FT-FDD-LTE01-dummy_delete.xml, RelativeFileName: simdep/dat/ossmaster/LTED1180-V2x10-FT-FDD-LTE01-dummy_delete.xml, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/ossmaster/LTED1180-V2x10-FT-FDD-LTE01-dummy_delete.xml
+2015-06-26 17:30:50,566 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: conf.txt, RelativeFileName: simdep/dat/omsas/conf.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/omsas/conf.txt
+2015-06-26 17:30:50,569 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: ftpServicesCORE.txt, RelativeFileName: simdep/dat/netsim/ftpServicesCORE.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/netsim/ftpServicesCORE.txt
+2015-06-26 17:30:50,573 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: ftpServicesGRAN.txt, RelativeFileName: simdep/dat/netsim/ftpServicesGRAN.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/netsim/ftpServicesGRAN.txt
+2015-06-26 17:30:50,577 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: ftpServicesLTE.txt, RelativeFileName: simdep/dat/netsim/ftpServicesLTE.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/netsim/ftpServicesLTE.txt
+2015-06-26 17:30:50,581 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: ftpServicesWRAN.txt, RelativeFileName: simdep/dat/netsim/ftpServicesWRAN.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/dat/netsim/ftpServicesWRAN.txt
+2015-06-26 17:30:50,585 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: conf.txt, RelativeFileName: simdep/conf/conf.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/conf/conf.txt
+2015-06-26 17:30:50,588 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: invokeSimNetDeployer.pl, RelativeFileName: simdep/bin/invokeSimNetDeployer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/invokeSimNetDeployer.pl
+2015-06-26 17:30:50,595 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: netsim, RelativeDirName: scripts/simdep/bin/netsim/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim
+2015-06-26 17:30:50,598 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: omsas, RelativeDirName: scripts/simdep/bin/omsas/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/omsas
+2015-06-26 17:30:50,600 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: ossmaster, RelativeDirName: scripts/simdep/bin/ossmaster/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/ossmaster
+2015-06-26 17:30:50,603 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/bin/ossmaster/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/ossmaster/README
+2015-06-26 17:30:50,607 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: import.pl, RelativeFileName: simdep/bin/ossmaster/import.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/ossmaster/import.pl
+2015-06-26 17:30:50,610 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: syncStatus.sh, RelativeFileName: simdep/bin/ossmaster/syncStatus.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/ossmaster/syncStatus.sh
+2015-06-26 17:30:50,615 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/bin/omsas/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/omsas/README
+2015-06-26 17:30:50,619 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: README, RelativeFileName: simdep/bin/netsim/README, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/README
+2015-06-26 17:30:50,622 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: assignPort.pl, RelativeFileName: simdep/bin/netsim/assignPort.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/assignPort.pl
+2015-06-26 17:30:50,627 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: createArneUnix.pl, RelativeFileName: simdep/bin/netsim/createArneUnix.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/createArneUnix.pl
+2015-06-26 17:30:50,631 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: createPort.pl, RelativeFileName: simdep/bin/netsim/createPort.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/createPort.pl
+2015-06-26 17:30:50,636 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: decisionModule.pl, RelativeFileName: simdep/bin/netsim/decisionModule.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/decisionModule.pl
+2015-06-26 17:30:50,646 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: openSimulation.pl, RelativeFileName: simdep/bin/netsim/openSimulation.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/openSimulation.pl
+2015-06-26 17:30:50,651 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: readSimData.pl, RelativeFileName: simdep/bin/netsim/readSimData.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/readSimData.pl
+2015-06-26 17:30:50,656 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: rollout.pl, RelativeFileName: simdep/bin/netsim/rollout.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/rollout.pl
+2015-06-26 17:30:50,660 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: setupSecurity.pl, RelativeFileName: simdep/bin/netsim/setupSecurity.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/setupSecurity.pl
+2015-06-26 17:30:50,665 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: simNetDeployer.pl, RelativeFileName: simdep/bin/netsim/simNetDeployer.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/simNetDeployer.pl
+2015-06-26 17:30:50,670 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: startNodes.pl, RelativeFileName: simdep/bin/netsim/startNodes.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/simdep/bin/netsim/startNodes.pl
+2015-06-26 17:30:50,675 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: .gitkeep, RelativeFileName: netsim_install/.gitkeep, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/.gitkeep
+2015-06-26 17:30:50,679 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: bin, RelativeDirName: scripts/netsim_install/bin/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin
+2015-06-26 17:30:50,682 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   DirName: log, RelativeDirName: scripts/netsim_install/log/, DirEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/log
+2015-06-26 17:30:50,684 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: .gitkeep, RelativeFileName: netsim_install/log/.gitkeep, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/log/.gitkeep
+2015-06-26 17:30:50,688 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: NETSIM_INSTALL_ERROR_CODE_REFERENCE.txt, RelativeFileName: netsim_install/bin/NETSIM_INSTALL_ERROR_CODE_REFERENCE.txt, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/NETSIM_INSTALL_ERROR_CODE_REFERENCE.txt
+2015-06-26 17:30:50,693 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: Unbundle.sh, RelativeFileName: netsim_install/bin/Unbundle.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/Unbundle.sh
+2015-06-26 17:30:50,697 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: getNetsimLicense.pl, RelativeFileName: netsim_install/bin/getNetsimLicense.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/getNetsimLicense.pl
+2015-06-26 17:30:50,702 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: getNetsimVerifiedPatchList.pl, RelativeFileName: netsim_install/bin/getNetsimVerifiedPatchList.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/getNetsimVerifiedPatchList.pl
+2015-06-26 17:30:50,706 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: getNetsimVersion.pl, RelativeFileName: netsim_install/bin/getNetsimVersion.pl, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/getNetsimVersion.pl
+2015-06-26 17:30:50,711 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: install_netsim.sh, RelativeFileName: netsim_install/bin/install_netsim.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/install_netsim.sh
+2015-06-26 17:30:50,716 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: master.sh, RelativeFileName: netsim_install/bin/master.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/master.sh
+2015-06-26 17:30:50,720 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: restart_netsim.sh, RelativeFileName: netsim_install/bin/restart_netsim.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/restart_netsim.sh
+2015-06-26 17:30:50,726 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: setup_internal_ssh.sh, RelativeFileName: netsim_install/bin/setup_internal_ssh.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/setup_internal_ssh.sh
+2015-06-26 17:30:50,732 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: setup_ntp_client.sh, RelativeFileName: netsim_install/bin/setup_ntp_client.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/setup_ntp_client.sh
+2015-06-26 17:30:50,742 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: start_netsim.sh, RelativeFileName: netsim_install/bin/start_netsim.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/start_netsim.sh
+2015-06-26 17:30:50,771 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.utils.ZipUtility]   --FileName: stop_netsim.sh, RelativeFileName: netsim_install/bin/stop_netsim.sh, FileEntry: /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/scripts/netsim_install/bin/stop_netsim.sh
+2015-06-26 17:30:50,817 [CLIScriptExecutionTestSuite] [DEBUG] [com.ericsson.ci.simnet.test.utils.TafFileUtils] initialLocation for search to begin: /home/qsarfly/repos/enm-ni-simdep-testware
+2015-06-26 17:30:50,834 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] localFile = /home/qsarfly/repos/enm-ni-simdep-testware/ERICTAFenmnisimdep_CXP9031884/src/main/resources/zips/enm-ni-simdep.zip
+2015-06-26 17:30:53,685 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] filesCopied=true
+2015-06-26 17:30:53,971 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] convertionOutput3=Archive:  enm-ni-simdep.zip
+   creating: scripts/
+   creating: scripts/netsim_install/
+   creating: scripts/simdep/
+   creating: scripts/testing_taf_features/
+  inflating: scripts/testing_taf_features/master.sh  
+  inflating: scripts/testing_taf_features/subScript_1.sh  
+  inflating: scripts/simdep/.gitignore  
+  inflating: scripts/simdep/README   
+  inflating: scripts/simdep/SIMDEP_ERROR_CODE_REFERENCE.txt  
+   creating: scripts/simdep/bin/
+   creating: scripts/simdep/conf/
+   creating: scripts/simdep/dat/
+   creating: scripts/simdep/docs/
+   creating: scripts/simdep/ext/
+   creating: scripts/simdep/lib/
+   creating: scripts/simdep/t/
+   creating: scripts/simdep/utils/
+   creating: scripts/simdep/utils/netsim/
+   creating: scripts/simdep/utils/omsas/
+   creating: scripts/simdep/utils/ossmaster/
+  inflating: scripts/simdep/utils/ossmaster/cNetsim.sh  
+  inflating: scripts/simdep/utils/ossmaster/cOss.sh  
+  inflating: scripts/simdep/utils/ossmaster/cleanServer.pl  
+  inflating: scripts/simdep/utils/ossmaster/expect_env.sh  
+  inflating: scripts/simdep/utils/ossmaster/expect_root.sh  
+  inflating: scripts/simdep/utils/ossmaster/runCleanVapp.sh  
+  inflating: scripts/simdep/utils/omsas/setupOmsas.pl  
+  inflating: scripts/simdep/utils/netsim/afterNetsimLogin.pl  
+  inflating: scripts/simdep/utils/netsim/checkForError.sh  
+  inflating: scripts/simdep/utils/netsim/checkUsedIps.sh  
+  inflating: scripts/simdep/utils/netsim/fetchFiles.pl  
+  inflating: scripts/simdep/utils/netsim/fetchFreeIps.pl  
+  inflating: scripts/simdep/utils/netsim/filterSims.pl  
+  inflating: scripts/simdep/utils/netsim/searchNexusSimNet.pl  
+  inflating: scripts/simdep/utils/netsim/showIPs.sh  
+  inflating: scripts/simdep/utils/netsim/summaryReportGenerator.pl  
+  inflating: scripts/simdep/utils/netsim/workAroundXML.pl  
+  inflating: scripts/simdep/t/README  
+  inflating: scripts/simdep/t/file.conf  
+  inflating: scripts/simdep/t/temp-invokeSimNetDeployer.pl  
+  inflating: scripts/simdep/t/test-inputToFile.pl  
+  inflating: scripts/simdep/t/test-mailer.pl  
+  inflating: scripts/simdep/t/test1-CheckAvailibity.sh  
+  inflating: scripts/simdep/t/test1-ConfigSimple.pl  
+  inflating: scripts/simdep/t/test1-ConfigTiny.pl  
+  inflating: scripts/simdep/t/test1-CopyFilesViaScp.pl  
+  inflating: scripts/simdep/t/test1-CurrDirectory.pl  
+  inflating: scripts/simdep/t/test1-ExpectTLSS.pl  
+  inflating: scripts/simdep/t/test1-HashRef.pl  
+  inflating: scripts/simdep/t/test1-StorableRead.pl  
+  inflating: scripts/simdep/t/test1-StorableWrite.pl  
+  inflating: scripts/simdep/t/test1-Understand-invokeSimNetDeployer.pl  
+  inflating: scripts/simdep/t/test1-UnderstandSubRotine.pl  
+  inflating: scripts/simdep/t/test1-percCalc.pl  
+  inflating: scripts/simdep/t/test2-CopyPemFromOMSAS.pl  
+  inflating: scripts/simdep/t/test2-percCalc.pl  
+  inflating: scripts/simdep/t/test2_1-CopyPemFromOMSAS.pl  
+  inflating: scripts/simdep/t/test3-CopyPemFromOMSAS.pl  
+  inflating: scripts/simdep/t/test3-percCalc.pl  
+  inflating: scripts/simdep/t/test4-percCalc.pl  
+  inflating: scripts/simdep/t/test5-percCalc.pl  
+  inflating: scripts/simdep/t/test6-percCalc-TMP.pl  
+  inflating: scripts/simdep/t/test6-percCalc.pl  
+  inflating: scripts/simdep/lib/README  
+  inflating: scripts/simdep/ext/master.sh  
+  inflating: scripts/simdep/ext/simdep_caller.sh  
+  inflating: scripts/simdep/ext/simdep_download.sh  
+  inflating: scripts/simdep/ext/simdep_upload.sh  
+  inflating: scripts/simdep/docs/README  
+   creating: scripts/simdep/dat/netsim/
+   creating: scripts/simdep/dat/omsas/
+   creating: scripts/simdep/dat/ossmaster/
+  inflating: scripts/simdep/dat/ossmaster/LTED1180-V2x10-FT-FDD-LTE01-dummy_delete.xml  
+  inflating: scripts/simdep/dat/omsas/conf.txt  
+  inflating: scripts/simdep/dat/netsim/ftpServicesCORE.txt  
+  inflating: scripts/simdep/dat/netsim/ftpServicesGRAN.txt  
+  inflating: scripts/simdep/dat/netsim/ftpServicesLTE.txt  
+  inflating: scripts/simdep/dat/netsim/ftpServicesWRAN.txt  
+  inflating: scripts/simdep/conf/conf.txt  
+  inflating: scripts/simdep/bin/invokeSimNetDeployer.pl  
+   creating: scripts/simdep/bin/netsim/
+   creating: scripts/simdep/bin/omsas/
+   creating: scripts/simdep/bin/ossmaster/
+  inflating: scripts/simdep/bin/ossmaster/README  
+  inflating: scripts/simdep/bin/ossmaster/import.pl  
+  inflating: scripts/simdep/bin/ossmaster/syncStatus.sh  
+  inflating: scripts/simdep/bin/omsas/README  
+  inflating: scripts/simdep/bin/netsim/README  
+  inflating: scripts/simdep/bin/netsim/assignPort.pl  
+  inflating: scripts/simdep/bin/netsim/createArneUnix.pl  
+  inflating: scripts/simdep/bin/netsim/createPort.pl  
+  inflating: scripts/simdep/bin/netsim/decisionModule.pl  
+  inflating: scripts/simdep/bin/netsim/openSimulation.pl  
+  inflating: scripts/simdep/bin/netsim/readSimData.pl  
+  inflating: scripts/simdep/bin/netsim/rollout.pl  
+  inflating: scripts/simdep/bin/netsim/setupSecurity.pl  
+  inflating: scripts/simdep/bin/netsim/simNetDeployer.pl  
+  inflating: scripts/simdep/bin/netsim/startNodes.pl  
+  inflating: scripts/netsim_install/.gitkeep  
+   creating: scripts/netsim_install/bin/
+   creating: scripts/netsim_install/log/
+  inflating: scripts/netsim_install/log/.gitkeep  
+  inflating: scripts/netsim_install/bin/NETSIM_INSTALL_ERROR_CODE_REFERENCE.txt  
+  inflating: scripts/netsim_install/bin/Unbundle.sh  
+  inflating: scripts/netsim_install/bin/getNetsimLicense.pl  
+  inflating: scripts/netsim_install/bin/getNetsimVerifiedPatchList.pl  
+  inflating: scripts/netsim_install/bin/getNetsimVersion.pl  
+  inflating: scripts/netsim_install/bin/install_netsim.sh  
+  inflating: scripts/netsim_install/bin/master.sh  
+  inflating: scripts/netsim_install/bin/restart_netsim.sh  
+  inflating: scripts/netsim_install/bin/setup_internal_ssh.sh  
+  inflating: scripts/netsim_install/bin/setup_ntp_client.sh  
+  inflating: scripts/netsim_install/bin/start_netsim.sh  
+  inflating: scripts/netsim_install/bin/stop_netsim.sh  
+Archive:  enm-ni-simdep.zip
+    testing: scripts/                 OK
+    testing: scripts/netsim_install/   OK
+    testing: scripts/simdep/          OK
+    testing: scripts/testing_taf_features/   OK
+    testing: scripts/testing_taf_features/master.sh   OK
+    testing: scripts/testing_taf_features/subScript_1.sh   OK
+    testing: scripts/simdep/.gitignore   OK
+    testing: scripts/simdep/README    OK
+    testing: scripts/simdep/SIMDEP_ERROR_CODE_REFERENCE.txt   OK
+    testing: scripts/simdep/bin/      OK
+    testing: scripts/simdep/conf/     OK
+    testing: scripts/simdep/dat/      OK
+    testing: scripts/simdep/docs/     OK
+    testing: scripts/simdep/ext/      OK
+    testing: scripts/simdep/lib/      OK
+    testing: scripts/simdep/t/        OK
+    testing: scripts/simdep/utils/    OK
+    testing: scripts/simdep/utils/netsim/   OK
+    testing: scripts/simdep/utils/omsas/   OK
+    testing: scripts/simdep/utils/ossmaster/   OK
+    testing: scripts/simdep/utils/ossmaster/cNetsim.sh   OK
+    testing: scripts/simdep/utils/ossmaster/cOss.sh   OK
+    testing: scripts/simdep/utils/ossmaster/cleanServer.pl   OK
+    testing: scripts/simdep/utils/ossmaster/expect_env.sh   OK
+    testing: scripts/simdep/utils/ossmaster/expect_root.sh   OK
+    testing: scripts/simdep/utils/ossmaster/runCleanVapp.sh   OK
+    testing: scripts/simdep/utils/omsas/setupOmsas.pl   OK
+    testing: scripts/simdep/utils/netsim/afterNetsimLogin.pl   OK
+    testing: scripts/simdep/utils/netsim/checkForError.sh   OK
+    testing: scripts/simdep/utils/netsim/checkUsedIps.sh   OK
+    testing: scripts/simdep/utils/netsim/fetchFiles.pl   OK
+    testing: scripts/simdep/utils/netsim/fetchFreeIps.pl   OK
+    testing: scripts/simdep/utils/netsim/filterSims.pl   OK
+    testing: scripts/simdep/utils/netsim/searchNexusSimNet.pl   OK
+    testing: scripts/simdep/utils/netsim/showIPs.sh   OK
+    testing: scripts/simdep/utils/netsim/summaryReportGenerator.pl   OK
+    testing: scripts/simdep/utils/netsim/workAroundXML.pl   OK
+    testing: scripts/simdep/t/README   OK
+    testing: scripts/simdep/t/file.conf   OK
+    testing: scripts/simdep/t/temp-invokeSimNetDeployer.pl   OK
+    testing: scripts/simdep/t/test-inputToFile.pl   OK
+    testing: scripts/simdep/t/test-mailer.pl   OK
+    testing: scripts/simdep/t/test1-CheckAvailibity.sh   OK
+    testing: scripts/simdep/t/test1-ConfigSimple.pl   OK
+    testing: scripts/simdep/t/test1-ConfigTiny.pl   OK
+    testing: scripts/simdep/t/test1-CopyFilesViaScp.pl   OK
+    testing: scripts/simdep/t/test1-CurrDirectory.pl   OK
+    testing: scripts/simdep/t/test1-ExpectTLSS.pl   OK
+    testing: scripts/simdep/t/test1-HashRef.pl   OK
+    testing: scripts/simdep/t/test1-StorableRead.pl   OK
+    testing: scripts/simdep/t/test1-StorableWrite.pl   OK
+    testing: scripts/simdep/t/test1-Understand-invokeSimNetDeployer.pl   OK
+    testing: scripts/simdep/t/test1-UnderstandSubRotine.pl   OK
+    testing: scripts/simdep/t/test1-percCalc.pl   OK
+    testing: scripts/simdep/t/test2-CopyPemFromOMSAS.pl   OK
+    testing: scripts/simdep/t/test2-percCalc.pl   OK
+    testing: scripts/simdep/t/test2_1-CopyPemFromOMSAS.pl   OK
+    testing: scripts/simdep/t/test3-CopyPemFromOMSAS.pl   OK
+    testing: scripts/simdep/t/test3-percCalc.pl   OK
+    testing: scripts/simdep/t/test4-percCalc.pl   OK
+    testing: scripts/simdep/t/test5-percCalc.pl   OK
+    testing: scripts/simdep/t/test6-percCalc-TMP.pl   OK
+    testing: scripts/simdep/t/test6-percCalc.pl   OK
+    testing: scripts/simdep/lib/README   OK
+    testing: scripts/simdep/ext/master.sh   OK
+    testing: scripts/simdep/ext/simdep_caller.sh   OK
+    testing: scripts/simdep/ext/simdep_download.sh   OK
+    testing: scripts/simdep/ext/simdep_upload.sh   OK
+    testing: scripts/simdep/docs/README   OK
+    testing: scripts/simdep/dat/netsim/   OK
+    testing: scripts/simdep/dat/omsas/   OK
+    testing: scripts/simdep/dat/ossmaster/   OK
+    testing: scripts/simdep/dat/ossmaster/LTED1180-V2x10-FT-FDD-LTE01-dummy_delete.xml   OK
+    testing: scripts/simdep/dat/omsas/conf.txt   OK
+    testing: scripts/simdep/dat/netsim/ftpServicesCORE.txt   OK
+    testing: scripts/simdep/dat/netsim/ftpServicesGRAN.txt   OK
+    testing: scripts/simdep/dat/netsim/ftpServicesLTE.txt   OK
+    testing: scripts/simdep/dat/netsim/ftpServicesWRAN.txt   OK
+    testing: scripts/simdep/conf/conf.txt   OK
+    testing: scripts/simdep/bin/invokeSimNetDeployer.pl   OK
+    testing: scripts/simdep/bin/netsim/   OK
+    testing: scripts/simdep/bin/omsas/   OK
+    testing: scripts/simdep/bin/ossmaster/   OK
+    testing: scripts/simdep/bin/ossmaster/README   OK
+    testing: scripts/simdep/bin/ossmaster/import.pl   OK
+    testing: scripts/simdep/bin/ossmaster/syncStatus.sh   OK
+    testing: scripts/simdep/bin/omsas/README   OK
+    testing: scripts/simdep/bin/netsim/README   OK
+    testing: scripts/simdep/bin/netsim/assignPort.pl   OK
+    testing: scripts/simdep/bin/netsim/createArneUnix.pl   OK
+    testing: scripts/simdep/bin/netsim/createPort.pl   OK
+    testing: scripts/simdep/bin/netsim/decisionModule.pl   OK
+    testing: scripts/simdep/bin/netsim/openSimulation.pl   OK
+    testing: scripts/simdep/bin/netsim/readSimData.pl   OK
+    testing: scripts/simdep/bin/netsim/rollout.pl   OK
+    testing: scripts/simdep/bin/netsim/setupSecurity.pl   OK
+    testing: scripts/simdep/bin/netsim/simNetDeployer.pl   OK
+    testing: scripts/simdep/bin/netsim/startNodes.pl   OK
+    testing: scripts/netsim_install/.gitkeep   OK
+    testing: scripts/netsim_install/bin/   OK
+    testing: scripts/netsim_install/log/   OK
+    testing: scripts/netsim_install/log/.gitkeep   OK
+    testing: scripts/netsim_install/bin/NETSIM_INSTALL_ERROR_CODE_REFERENCE.txt   OK
+    testing: scripts/netsim_install/bin/Unbundle.sh   OK
+    testing: scripts/netsim_install/bin/getNetsimLicense.pl   OK
+    testing: scripts/netsim_install/bin/getNetsimVerifiedPatchList.pl   OK
+    testing: scripts/netsim_install/bin/getNetsimVersion.pl   OK
+    testing: scripts/netsim_install/bin/install_netsim.sh   OK
+    testing: scripts/netsim_install/bin/master.sh   OK
+    testing: scripts/netsim_install/bin/restart_netsim.sh   OK
+    testing: scripts/netsim_install/bin/setup_internal_ssh.sh   OK
+    testing: scripts/netsim_install/bin/setup_ntp_client.sh   OK
+    testing: scripts/netsim_install/bin/start_netsim.sh   OK
+    testing: scripts/netsim_install/bin/stop_netsim.sh   OK
+No errors detected in compressed data of enm-ni-simdep.zip.
+
+2015-06-26 17:30:54,098 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] unzipCmd02ExitCode=0
+2015-06-26 17:30:54,100 [CLIScriptExecutionTestSuite] [INFO] [com.ericsson.ci.simnet.test.operators.CLIScriptExecutionOperator] Switching to admin user User username=root password=shroot type=ADMIN
